@@ -28,6 +28,7 @@ def new_file():
 
         text.delete(1.0, tk.END)
         logger.info("Created new file successfully.")
+        
     except Exception as e:
         logger.error(f"Error creating file : {e}")
 
