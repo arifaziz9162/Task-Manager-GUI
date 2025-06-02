@@ -85,7 +85,6 @@ class TaskManagerApp:
             self.refresh_listbox()
             self.save_tasks_to_file()
             logger.info(f"Task deleted: {task}")
-
         else:
             messagebox.showwarning("Selection Error", "Please select a task to delete.")
 
